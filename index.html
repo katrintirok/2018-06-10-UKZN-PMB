@@ -2,24 +2,24 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.  (THANK YOU.)
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "UKZN, Civil Engineering"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Centenary Building, Room R220, Howard College Campus, King George V Avenue, Durban"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "UKZN, PMB campus"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "LAN, PMB Campus, Petermaritzburg"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "-29.866063, 30.982171"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "Jan 11-12, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "08:30 - 16:30"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2018-01-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2018-01-12        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+latlng: "-29.621250, 30.396608"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Jul 10-11, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "09:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2018-07-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2018-07-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Katrin Tirok", "Justin Pringle"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Atish Deoraj", "Clinton Chrystal"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["tirok@ukzn.ac.za"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:   http://pad.software-carpentry.org/2018-01-11-UKZN-Civil          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+helper: ["TBC"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: ["209510188@stu.ukzn.ac.za","tirok@ukzn.ac.za"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes:   http://pad.software-carpentry.org/2018-07-10-UKZN-PMB          # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
-<div><p> <h4>This workshop is organised in-house and is specifically aimed at academic staff and postgraduate students from the Department of Civil Engineering, 
-Land Surveying and Construction Studies and at engineers from eThekwini CSCM. No prior programming experience is required. Participants will be 
+<div><p> <h4>This workshop is organised in-house and is specifically aimed at postgraduate students and academic staff from the Department of 
+Agricultural Engineering. No prior programming experience is required. Participants will be 
 introduced to foundational concepts of data handling and programming in Python. 
 The curriculum does not include statistics or mathematics.</h4> </p></div>
 
@@ -129,10 +129,11 @@ and our administrator may contact you if we need any extra information.</h4>
   Modify the block below if there are any special requirements.
 -->
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Requirements:</strong> As a participants you should bring your laptop with
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that you have administrative privileges
+  on. You need to install a few specific software packages before the workshop (listed
+  <a href="#setup">below</a>). The venue also is equipped with PCs with the necessary software if you can't bring your own laptop.
+  All participants are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
@@ -149,6 +150,7 @@ and our administrator may contact you if we need any extra information.</h4>
   Modify the block below if there are any barriers to accessibility or
   special instructions.
 -->
+<!--
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -166,6 +168,7 @@ and our administrator may contact you if we need any extra information.</h4>
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+-->
 
 <!--
   CONTACT EMAIL ADDRESS
@@ -197,7 +200,7 @@ and our administrator may contact you if we need any extra information.</h4>
 -->
 <p id="registration">
 	<strong>Registration</strong>:
-		Please sign up by completing this <a href="https://goo.gl/forms/7rYwO2mJljtmORHY2">form</a>.  
+		Registration is closed, for more information contact <a href='mailto:{{contact}}'>{{contact}}</a>.
 </p>
 
 <hr/>
@@ -462,6 +465,8 @@ and our administrator may contact you if we need any extra information.</h4>
     
 </div> <!-- End of 'SQLite' section. -->
 
+
+
 <div id="sql manager"> <!-- Start of 'SQLite Manager' section. -->
 
   <h3>SQLite Manager</h3>
@@ -469,15 +474,16 @@ and our administrator may contact you if we need any extra information.</h4>
   <p>
     To interact with SQLite data bases we will use the SQLite Manager add on for the Firefox web browser.
     If you don’t have Firefox installed, you need to install it first and then you will be able to add the plugin.
-	You need to install the special Extended Support Release (ESR) of Firefox since the add on is not working with the new Firefox Quantum.
+	You need to install the special Extended Support Release (ESR) of Firefox since the add on is not working with 
+	the new Firefox Quantum.
 	 </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="sqlManager-windows">Windows</h4>
       <p>
-        If you don’t already have Firefox ESR, download Firefox from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox ESR download page</a>.
-		Install Firefox following the installer instructions. 
+        If you don’t already have Firefox ESR, download Firefox ESR from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox ESR download page</a>.
+		Install Firefox ESR following the installer instructions. 
 		To install the SQLite Manager add on go to <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/</a> within Firefox.
 		Click on ‘Add to Firefox’ and follow the instructions.
 		Add SQLite Manager to the menu: Menu (the three horizontal lines near the top right corner of Firefox) -> Customize, then drag the SQLite Manager icon to one of the empty menu squares on the right
@@ -486,8 +492,8 @@ and our administrator may contact you if we need any extra information.</h4>
     <div class="col-md-4">
       <h4 id="sql-macosx">Mac OS X</h4>
       <p>
-       If you don’t already have Firefox ESR, download Firefox from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox ESR download page</a>.
-		Install Firefox following the installer instructions. 
+       If you don’t already have Firefox ESR, download Firefox ESR from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox ESR download page</a>.
+		Install Firefox ESR following the installer instructions. 
 		To install the SQLite Manager add on go to <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/</a> within Firefox.
 		Click on ‘Add to Firefox’ and follow the instructions.
 		After restart the SQLite Manager will be added ot the Tools menu.
@@ -496,8 +502,8 @@ and our administrator may contact you if we need any extra information.</h4>
     <div class="col-md-4">
       <h4 id="sql-linux">Linux</h4>
       <p>
-      If you don’t already have Firefox, download Firefox from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox download page</a>.
-		Install Firefox following the installer instructions. 
+      If you don’t already have Firefox ESR, download Firefox ESR from the <a href="https://www.mozilla.org/en-US/firefox/organizations/all/.">Firefox download page</a>.
+		Install Firefox ESR following the installer instructions. 
 		To install the SQLite Manager add on go to <a href="https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/">https://addons.mozilla.org/en-US/firefox/addon/sqlite-manager/</a> within Firefox.
 		Click on ‘Add to Firefox’ and follow the instructions.
 		After restart the SQLite Manager will be added ot the Tools menu.
@@ -508,81 +514,3 @@ and our administrator may contact you if we need any extra information.</h4>
   </div> 
   <!-- end of SQlite manager section-->
 
-
-<div id="openrefine"> <!-- Start of 'OpenRefine' section. -->
-<!--
-  <h3>OpenRefine</h3>
-  <p>
-    For this lesson you will need <em>OpenRefine</em> and a
-    web browser. <em>Note:</em> this is a Java program that runs on your machine (not in the cloud).
-    It runs inside a web browser, but no web connection is needed.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="openrefine-windows">Windows</h4>
-      <p>
-        Check that you have either the Firefox or the Chrome browser installed and set as your default browser.
-        <strong>OpenRefine runs in your default browser.</strong>
-        It will not run correctly in Internet Explorer.
-      </p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a></p>
-      <p>Create a new directory called OpenRefine.</p>
-      <p>Unzip the downloaded file into the OpenRefine directory by right-clicking and selecting "Extract ...". </p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by clicking <code>google-refine.exe</code> (this will launch a command prompt window, but you can ignore that - just wait for OpenRefine to open in the browser).
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="openrefine-mac">Mac</h4>
-      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong> It may not run correctly in Safari.</p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-      <p>Create a new directory called OpenRefine.</p>
-      <p>Unzip the downloaded file into the OpenRefine directory by double-clicking it.</p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by dragging the icon into the Applications folder.
-      <p>Use <code>Ctrl-click/Open ... </code> to launch it.
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-    <div class="col-md-4">
-      <h4 id="openrefine-linux">Linux</h4>
-      <p>Check that you have either the Firefox or the Chrome browser installed and set as your default browser. <strong>OpenRefine runs in your default browser.</strong></p>
-      <p>Download software from <a href="http://openrefine.org/">http://openrefine.org/</a>.</p>
-      <p>Make a directory called OpenRefine.<p>
-      <p>Unzip the downloaded file into the OpenRefine directory.</p>
-      <p>Go to your newly created OpenRefine directory.</p>
-      <p>Launch OpenRefine by entering <code>./refine</code> into the terminal within the OpenRefine directory.</p>
-      <p>If you are using a different browser, or if OpenRefine does not automatically open for you, point your browser at <a href="http://127.0.0.1:3333/">http://127.0.0.1:3333/</a> or <a href="http://localhost:3333">http://localhost:3333</a> to use the program.</p>
-    </div>
-  </div>
-  -->
-</div> <!-- End of 'OpenRefine' section. -->
-
-
-<!--
-  Uncomment this section if you are using our virtual machine.
-
-<div id="vm">
-  <h3>Virtual Machine</h3>
-
-  <p>
-    Some instructors prefer to have learners use a virtual machine (VM)
-    rather than install software on their own computers.  If your
-    instructors have chosen to do this, please:
-  </p>
-  <ol>
-    <li>
-      Install <a href="https://www.virtualbox.org/">VirtualBox</a>.
-    </li>
-    <li>
-      Download our <a href="{{site.swc_vm}}">VM image</a>.
-      <strong>Warning:</strong> this file is 1.7 GByte, so please
-      download it <em>before</em> coming to your workshop.
-    </li>
-    <li>
-      Load the VM into VirtualBox by selecting "Import Appliance" and
-      loading the <code>.ova</code> file.
-    </li>
-  </ol>
-</div>
--->
